@@ -1,13 +1,19 @@
 ---
 name: Assignment
 about: 이번주 문제를 적어주세요!
-title: "[Assignment]"
-labels: "\U001D76DB 📖 Assignment"
+title: "[Assignment] {주차} : 공동 문제"
+labels: "\U0001F4D6 Assignment"
 assignees: ''
+
 ---
 
+## 😀 Issue을 올리기 전 준비
+- [ ] 그룹별로 문제를 지정해주었나요?
+- [ ] assignee(그룹장)를 지정해주셨나요?
+- [ ] Issue 제목, Label 등을 알맞게 수정하셨나요?
+
 ## 💼 이번주 문제
-문제링크를 적어주세요.
+그룹별 문제링크를 적어주세요.
 
 ## 🍒 그룹장 확인
 이번주 문제를 확인하신 그룹장은 체크해주세요.
