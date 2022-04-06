@@ -1,7 +1,3 @@
-<style>
-    
-</style>
-
 # 2022 네스트넷 자료구조, 알고리즘 스터디
 
 ## GitHub에 코드 올리는 방법 ❔
@@ -122,29 +118,24 @@ $ git pull -r upstream main
 
 ## 문제집 📚
 
-<details><summary>주차별 공동 문제 확인</summary>
-
-  <table>
-    <thread>
-      <tr>
-        <td>주차 / 그룹</td>
-        <td>해바라기반</td>
-        <td>슬기로운반</td>
-        <td>지혤로운반</td>
-        <td>장미반</td>
-      </tr>
-    </thread>
-    <tbody>
-      <tr>
-        <td>1주차</td>
-      </tr>
-      <tr>
-        <td>2주차</td>
-      </tr>
-    </tbody>
-  </table>
-
-</details>
+<table>
+  <thread>
+    <tr>
+      <td>주차 / 그룹</td>
+      <td>해바라기반</td>
+      <td>슬기로운반</td>
+      <td>지혤로운반</td>
+      <td>장미반</td>
+    </tr>
+  </thread>
+  <tbody>
+    <tr>
+      <td>1주차</td>
+      <td><a href="https://www.acmicpc.net/problem/1541">잃어버린 괄호</a></td>
+      <td colspan="3"><a href="https://www.acmicpc.net/problem/10869">사칙연산</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
