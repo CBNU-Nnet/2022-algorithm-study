@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10869 사칙연산", "10869 사칙연산\10869 사칙연산.vcxproj", "{DCD85BDC-01B6-47CC-BC15-C6BE08512042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Debug|x64.ActiveCfg = Debug|x64
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Debug|x64.Build.0 = Debug|x64
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Debug|x86.ActiveCfg = Debug|Win32
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Debug|x86.Build.0 = Debug|Win32
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Release|x64.ActiveCfg = Release|x64
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Release|x64.Build.0 = Release|x64
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Release|x86.ActiveCfg = Release|Win32
+		{DCD85BDC-01B6-47CC-BC15-C6BE08512042}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CBFBE3F-13E2-4E02-8625-78247D147308}
+	EndGlobalSection
+EndGlobal
