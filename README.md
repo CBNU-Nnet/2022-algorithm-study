@@ -112,7 +112,7 @@ $ git pull -r upstream main
 2. 공동과제와 개인이 푼 문제는 `PR`에 올립니다.
 3. 각 조원끼리는 꼭 `코드리뷰`를 해줘야 합니다.
 
-[자세한 사항은 여기를 눌러주세요.](https://github.com/CBNU-Nnet/2022-algorithm-study/issues/1/#issues)
+[파일 구조 및 각종 규칙들은 여기서 확인해 주세요](https://github.com/CBNU-Nnet/2022-algorithm-study/issues/1/#issues)
 
 <br>
 
@@ -133,6 +133,11 @@ $ git pull -r upstream main
       <td>1주차</td>
       <td><a href="https://www.acmicpc.net/problem/1541">잃어버린 괄호</a></td>
       <td colspan="3"><a href="https://www.acmicpc.net/problem/10869">사칙연산</a></td>
+    </tr>
+    <tr>
+       <td>2주차</td>
+       <td><a href="https://www.acmicpc.net/problem/1283">단축키 지정</a></td>
+       <td colspan="3"><a href="https://www.acmicpc.net/problem/1267">핸드폰 요금</a></td>
     </tr>
   </tbody>
 </table>
