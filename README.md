@@ -150,6 +150,7 @@ $ git pull -r upstream main
 ||브론즈 문제|실버 문제|골드 문제|
 |:--:|:-:|:-:|:-:|
 |3주차|[첼시를 도와줘!](https://www.acmicpc.net/problem/11098)|[중앙값 제거](https://www.acmicpc.net/problem/23758)|[소셜 네트워킹 어플리케이션](https://www.acmicpc.net/problem/7511)
+|4주차|[뚜기뚜기메뚜기](https://www.acmicpc.net/problem/10545)|[소-난다!](https://www.acmicpc.net/problem/19699)|[트리인가?](https://www.acmicpc.net/problem/6416)
 <br>
 
 ## 🙋‍♂️ 출석부 🙋‍♀️
@@ -158,3 +159,4 @@ $ git pull -r upstream main
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |1주차|✔️|✔️|✔️|✔️|✔️|||✔️|✔️|||✔️|
 |2주차|✔️|✔️|✔️|✔️||||✔️|✔️|✔️||✔️|
+|3주차||✔️|✔️|✔️||✔️|||✔️|||✔️|
