@@ -127,11 +127,11 @@ $ git pull -r upstream main
   <tbody align='center'>
     <tr> 
       <td>1주차</td>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-      <td>5</td>
+      <td><a href="https://www.acmicpc.net/problem/16503">괄호 없는 사칙연산</a></td>
+      <td><a href="https://www.acmicpc.net/problem/1699">제곱수의 합</a></td>
+      <td><a href="https://www.acmicpc.net/problem/5639">이진 검색 트리</a></td>
+      <td><a href="https://programmers.co.kr/learn/courses/30/lessons/64061">크레인 인형 뽑기</a></td>
+      <td><a href="https://programmers.co.kr/learn/courses/30/lessons/60058">괄호 변환</a></td>
     </tr>
   </tbody>
 </table>
