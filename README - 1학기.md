@@ -1,4 +1,4 @@
-# 2022 네스트넷 여름방학 알고리즘 스터디
+# 2022 네스트넷 자료구조, 알고리즘 스터디
 
 ## GitHub에 코드 올리는 방법 ❔
 
@@ -92,15 +92,25 @@ $ git pull -r upstream main
 
 - 주차별 과제의 경우 reviewer 모두 지정하기
 
+<br>
+
+### 4. 코드리뷰 후 merge
+
+* 코드 리뷰 내용은 자유롭게 작성하기
+  - 코드에 대해서 궁금한 점 질문
+  - 코드에 대한 칭찬
+  - 코드 개선 아이디어 건의 (성능, 클린코드 등)
+  - 등등 ..
+* 코드 리뷰가 끝난 뒤 필요에 따라 추가로 리팩토링하고 커밋 (커밋 형식은 자유)
+
 </details><br>
 
 ## 스터디 진행 방식 🎲
 
-1. `매주 5문제`가 출제됩니다. 
-(백준에서 브/실/골 각 1문제 + 프로그래머스에서 2문제)
-2. 선정된 문제 중 `3문제`를 풀어 `금요일`까지 `PR`을 작성합니다.
-(추가적으로 푼 문제 또한 올리셔도 괜찮습니다)
-3. `토 ~ 일`에는 다른 스터디원이 작성한 PR에 대해 `코드리뷰`를 해줘야 합니다.
+0. `소그룹`으로 나누어 진행됩니다.
+1. `팀별 공동과제`는 `매주 1문제`가 출제됩니다.
+2. 공동과제와 개인이 푼 문제는 `PR`에 올립니다.
+3. 각 조원끼리는 꼭 `코드리뷰`를 해줘야 합니다.
 
 [파일 구조 및 각종 규칙들은 여기서 확인해 주세요](https://github.com/CBNU-Nnet/2022-algorithm-study/issues/1/#issues)
 
@@ -108,38 +118,48 @@ $ git pull -r upstream main
 
 ## 문제집 📚
 
+<details>
+   <summary>1 ~ 2주차 문제집</summary>
+   <br>
 <table>
-  <thead align='center'>
+  <thread>
     <tr>
-        <td></td>
-        <td colspan='3'>백준</td>
-        <td colspan='2'>프로그래머스</td>
+      <td>주차 / 그룹</td>
+      <td>해바라기반</td>
+      <td>슬기로운반</td>
+      <td>지혤로운반</td>
+      <td>장미반</td>
     </tr>
+  </thread>
+  <tbody>
     <tr>
-        <td></td>
-        <td>브론즈</td>
-        <td>실버</td>
-        <td>골드</td>
-        <td>lv.1~2</td>
-        <td>lv.2~3</td>
-    </tr>
-  </thead>
-  <tbody align='center'>
-    <tr> 
       <td>1주차</td>
-      <td><a href="https://www.acmicpc.net/problem/16503">괄호 없는 사칙연산</a></td>
-      <td><a href="https://www.acmicpc.net/problem/1699">제곱수의 합</a></td>
-      <td><a href="https://www.acmicpc.net/problem/5639">이진 검색 트리</a></td>
-      <td><a href="https://programmers.co.kr/learn/courses/30/lessons/64061">크레인 인형 뽑기</a></td>
-      <td><a href="https://programmers.co.kr/learn/courses/30/lessons/60058">괄호 변환</a></td>
+      <td><a href="https://www.acmicpc.net/problem/1541">잃어버린 괄호</a></td>
+      <td colspan="3"><a href="https://www.acmicpc.net/problem/10869">사칙연산</a></td>
+    </tr>
+    <tr>
+       <td>2주차</td>
+       <td><a href="https://www.acmicpc.net/problem/1283">단축키 지정</a></td>
+       <td colspan="3"><a href="https://www.acmicpc.net/problem/1267">핸드폰 요금</a></td>
     </tr>
   </tbody>
 </table>
+<hr>
+</details>
 
+||브론즈 문제|실버 문제|골드 문제|
+|:--:|:-:|:-:|:-:|
+|3주차|[첼시를 도와줘!](https://www.acmicpc.net/problem/11098)|[중앙값 제거](https://www.acmicpc.net/problem/23758)|[소셜 네트워킹 어플리케이션](https://www.acmicpc.net/problem/7511)
+|4주차|[뚜기뚜기메뚜기](https://www.acmicpc.net/problem/10545)|[소-난다!](https://www.acmicpc.net/problem/19699)|[트리인가?](https://www.acmicpc.net/problem/6416)
+|5주차|[터널의 입구와 출구](https://www.acmicpc.net/problem/5612)|[기타줄](https://www.acmicpc.net/problem/1049)|[개똥벌레](https://www.acmicpc.net/problem/3020)
+<br>
 
 ## 🙋‍♂️ 출석부 🙋‍♀️
 
-|     | 최문형 | 이동우 | 조현창 | 김동용 | 이승현 | 김성호 | 허원일 | 김나영 | 임종훈 | 홍범순 | 김예경 |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 1주차 |     |     |     |     |     |     |     |     |     |     |     |
-
+||이동우|조현창|최문형|이승현|김동용|이진원|임수연|김예경|김예원|허정윤|허원일|엄예진|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|1주차|✔️|✔️|✔️|✔️|✔️|||✔️|✔️|||✔️|
+|2주차|✔️|✔️|✔️|✔️||||✔️|✔️|✔️||✔️|
+|3주차||✔️|✔️|✔️||✔️|✖️||✔️|||✔️|
+|4주차|||✔️|||||||✔️|✔️|✔️|
+|5주차||||✔️||||||✔️||✔️|

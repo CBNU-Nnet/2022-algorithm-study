@@ -1,7 +1,7 @@
 ---
 name: Question
 about: 질문할 내용을 적어주세요!
-title: "[Question] {그룹} : {이름} - {한줄 요약}"
+title: "[Question] {이름} - {한줄 요약}"
 labels: "\U0001F64B Question"
 assignees: ''
 
