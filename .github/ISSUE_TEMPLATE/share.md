@@ -1,7 +1,7 @@
 ---
 name: Share
 about: 공유할 내용을 적어주세요!
-title: "[Share] {그룹} : {이름} - {한줄 요약}"
+title: "[Share] {이름} - {한줄 요약}"
 labels: "\U0001F4DA Share"
 assignees: ''
 
