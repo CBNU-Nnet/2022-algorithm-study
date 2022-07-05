@@ -1,0 +1,17 @@
+name: Auto (reviewer, assignees) on (issue, PR)
+on:
+  issues:
+    types: [opened, labeled]
+  pull_request:
+    types: [opened, labeled]
+
+jobs:
+  add-assign:
+    if: github.event.label.name == 'Assignment'
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/auto-assign@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: .github/workflows/config/auto-assign-config.yml
