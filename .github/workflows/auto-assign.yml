@@ -1,13 +1,13 @@
 name: Auto (reviewer, assignees) on (issue, PR)
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened]
   pull_request:
-    types: [opened, labeled]
+    types: [opened]
 
 jobs:
   add-assign:
-    if: github.event.label.name == 'Assignment'
+    if: contains(github.event.issue.title, '주차')  || contains(github.event.pull_request.title, '주차')
 
     runs-on: ubuntu-latest
     steps:
