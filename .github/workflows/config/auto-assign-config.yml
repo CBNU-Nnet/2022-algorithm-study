@@ -2,7 +2,7 @@
 addReviewers: true
 
 # Set to true to add assignees to PRs
-addAssignees: author
+addAssignees: true
 
 # Set to 'author' to add PR's author as a assignee
 # addAssignees: author
