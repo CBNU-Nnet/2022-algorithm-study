@@ -1,0 +1,49 @@
+#include <string>
+#include <vector>
+#include <set>
+#include <map>
+
+using namespace std;
+
+vector<int> solution(vector<string> gems) {
+    set<string> s;
+    for (auto gem : gems) {
+        s.insert(gem);
+    }
+    
+    vector<int> answer = { 0, 100001 };
+    
+    map<string, int> m;
+    int start = 0, end = 0, include_cnt = 0;
+    while (1) {
+        if (start == gems.size()) {
+            break;
+        }
+        
+        if (include_cnt == s.size()) {
+            if (answer[1] - answer[0] + 1 > end - start) {
+                answer = { start + 1, end };
+            }
+            m[gems[start]]--;
+            if (m[gems[start]] == 0) {
+                include_cnt -= 1;
+            }
+            start++;
+            continue;
+        }
+        
+        if (end == gems.size()) {
+            break;
+        }
+        
+        if (include_cnt != s.size()) {
+            if (m[gems[end]] == 0) {
+                include_cnt++;
+            }
+            m[gems[end]]++;
+            end++;
+        }
+    }
+    
+    return answer;
+}
